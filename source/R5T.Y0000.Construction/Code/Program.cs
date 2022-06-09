@@ -7,7 +7,10 @@ namespace R5T.Y0000.Construction
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int i = 0; i < 256; i++)
+            {
+                Console.WriteLine($"{Convert.ToChar(i)}: {i:000}");
+            }
         }
     }
 }
