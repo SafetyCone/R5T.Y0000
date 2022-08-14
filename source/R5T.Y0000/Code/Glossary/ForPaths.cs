@@ -34,6 +34,34 @@ namespace R5T.Y0000
             /// <definition>The path to a file.</definition>
             /// <name><i>file path</i></name>
             public static readonly object FilePath;
+
+            /// <summary>
+            /// <inheritdoc cref="Windows" path="/definition"/>
+            /// </summary>
+            /// <definition>Path uses the Windows directory separator.</definition>
+            /// <name><i>windows</i></name>
+            public static readonly object Windows;
+
+            /// <summary>
+            /// <inheritdoc cref="NonWindows" path="/definition"/>
+            /// </summary>
+            /// <definition>Path uses the Non-Windows directory separator.</definition>
+            /// <name><i>non-windows</i></name>
+            public static readonly object NonWindows;
+
+            /// <summary>
+            /// <inheritdoc cref="RootIndicated" path="/definition"/>
+            /// </summary>
+            /// <definition>A path is root-indicated if it starts with a directory separator.</definition>
+            /// <name><i>root-indicated</i></name>
+            public static readonly object RootIndicated;
+
+            /// <summary>
+            /// <inheritdoc cref="Strict" path="/definition"/>
+            /// </summary>
+            /// <definition>Many times, a path cannot be absolutely classified. (For example, is a path without any directory separators a Windows or non-Windows path?)</definition>
+            /// <name><i>stric</i></name>
+            public static readonly object Strict;
         }
     }
 }
