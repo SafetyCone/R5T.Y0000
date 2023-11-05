@@ -9,6 +9,11 @@ namespace R5T.Y0000
     public static partial class Documentation
     {
         /// <summary>
+        /// Clearing a file means writing an empty string to a file path.
+        /// </summary>
+        public static readonly object Clearing_File;
+
+        /// <summary>
         /// "C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\"
         /// </summary>
         public static readonly object Example_RuntimeDirectoryPath;
